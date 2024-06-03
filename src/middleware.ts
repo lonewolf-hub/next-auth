@@ -4,7 +4,7 @@ import jwt from 'jsonwebtoken';
 
 export function middleware(request: NextRequest) {
     const path = request.nextUrl.pathname;
-    const isPublicPath = ['/login', '/signup', '/'].includes(path);
+    const isPublicPath = ['/login', '/signup'].includes(path);
     const token = request.cookies.get('token')?.value || '';
 
     if (isPublicPath && token) {
