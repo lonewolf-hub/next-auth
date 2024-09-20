@@ -5,7 +5,7 @@ export const navbarLinks = [
       { icon: "/assets/icon/seat.svg", title: "About", url: "/",},
       { icon: "/assets/icon/book.png", title: "Services", url: "/" },
       { icon: "/assets/icon/update.png", title: "Updates", url: "/" },
-      { icon: "/assets/icon/user.svg", title: "Register", url: "/signup" },
+      { icon: "/assets/icon/user.svg", title: "", url: "/signup" },
     ],
   },
 ];
